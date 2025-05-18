@@ -1,0 +1,447 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 15vh;
+    padding-bottom: 50px;
+    background-color: #f7f7f7;
+}
+
+/* NAVBAR */
+.container-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    height: 15vh;
+    z-index: 1000;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.li-navbar:hover {
+    background-color: lightgray;
+    transition: .2s ease-in-out;
+    transition-delay: .05s;
+    border-radius: 10px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+/* NAVBAR SELESAI */
+
+/* CONTENT HOME */
+.container-content {
+    background-color: #f7f7f7;
+    justify-content: center;
+    display: grid;
+    align-items:flex-start;
+    margin-top: 5pc;
+    height: 90pc;
+}
+
+.a-content {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 360px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.a-content:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* CONTENT HOME SELESAI */
+
+/* CONTENT ABOUT */
+.container-content-about {
+    background-color: #f7f7f7;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.h1-content {
+    height: fit-content;
+    font-size: 30px;
+}
+
+.p-content {
+    background-color: #aaa;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: 500;
+    height: fit-content;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+/* CONTENT ABOUT SELESAI */
+
+/* CONTENT CONTACT */
+.container-content-ct {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Semua elemen rata kiri */
+    gap: 20px;
+}
+
+.h1-content-ct {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.h2-content-ct {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.p-content-ct {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Tombol sosial */
+.a-content-ct {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.a-content-ct:hover {
+    transform: scale(1.05);
+}
+
+.img-content-ct {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+/* CONTENT CONTACT SELESAI */
+
+/* WELLCOME MESSAGE */
+.container-wl {
+    background-color: #f7f7f7;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.h1-wl {
+    margin-top: 80px;
+    padding: 50px;
+}
+
+/* WELLCOME MESSAGE SELESAI */
+
+/* QUIZ MTK */
+/* Halaman Awal */
+.start-screen {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.start-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: darkgreen;
+}
+
+/* Kontainer Quiz */
+.quiz-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Pertanyaan */
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Pilihan jawaban */
+.choice-button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.choice-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Tombol selesai */
+#stop-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#stop-btn:hover {
+    background-color: darkred;
+}
+
+/* Warna feedback */
+#result.benar {
+    color: green;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#result.salah {
+    color: red;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Tombol mulai lagi */
+#restart-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#restart-btn:hover {
+    background-color: #0056b3;
+}
+
+/* QUIZ MTK SELESAI */
+
+
+
+/* QUIZ TEBAK NEGARA */
+.container-flag-quiz {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+}
+
+.img-content {
+    border-radius: 20px;
+}
+
+/* START SCREEN */
+.start-screen {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.start-button,
+#stop-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.start-button:hover,
+#stop-btn:hover {
+    background-color: #0056b3;
+}
+
+/* QUIZ CONTAINER */
+.quiz-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* FLAG IMAGE */
+.flag-image {
+    width: 200px;
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* CHOICES BUTTONS */
+.choices-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+#choices button {
+    padding: 10px 16px;
+    font-size: 16px;
+    min-width: 120px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#choices button:hover {
+    background-color: #eee;
+}
+
+/* FEEDBACK */
+.correct {
+    background-color: #4CAF50 !important;
+    color: white;
+}
+
+.wrong {
+    background-color: #F44336 !important;
+    color: white;
+}
+
+/* SCORE */
+.score-box {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* RESULT */
+#result {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wrong {
+    background-color: #F44336 !important;
+    color: white;
+}
+
+.score-box {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* QUIZ TEBAK NEGARA SELESAI */
+
+/* FOOTER */
+.container-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.h1-footer {
+    font-size: 40px;
+}
+
+/* FOOTER SELESAI */

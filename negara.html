@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA-Tebak Bendera Negara</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="container-navbar">
+        <ul class="ul-navbar">
+            <li class="li-navbar">
+                <a href="index.html" class="a-navbar">HOME</a>
+            </li>
+            <li class="li-navbar">
+                <a href="about.html" class="a-navbar">ABOUT US</a>
+            </li>
+            <li class="li-navbar">
+                <a href="contact.html" class="a-navbar">CONTACT US</a>
+            </li>
+        </ul>
+    </div>
+    <!-- NAVBAR SELESAI -->
+
+    <!-- CONTENT 1 -->
+    <div class="container-flag-quiz">
+        <div class="start-screen" id="start-screen">
+            <h1>Quiz Tebak Bendera Negara</h1>
+            <button onclick="startQuiz()" class="start-button">Mulai Quiz</button>
+        </div>
+        <!-- bendera -->
+        <div class="quiz-container" id="quiz-container" style="display: none;">
+            <div class="score-box">Skor: <span id="score">0</span></div>
+            <h2 id="question"></h2>
+            <img id="flag-image" class="flag-image" src="" alt="Bendera Negara" />
+            <div id="choices" class="choices-row"></div>
+            <button id="stop-btn" onclick="stopQuiz()">Selesai</button>
+            <div id="result"></div>
+        </div>
+
+
+        <div class="quiz-container" id="quiz-container" style="display: none;">
+            <div class="score-box">Skor: <span id="score">0</span></div>
+            <h2 id="question"></h2>
+            <img id="flag" class="flag-image" src="" alt="Bendera Negara">
+            <div id="choices" class="choices-row"></div>
+            <button id="stop-btn" onclick="stopQuiz()">Selesai</button>
+            <div id="result"></div>
+        </div>
+
+    </div>
+    <!-- CONTENT 1 END -->
+
+    <!-- FOOTER-->
+    <div class="container-footer">
+        <h1 class="h1-footer">QUIZ NOVA</h1>
+    </div>
+    <!-- FOOTER END -->
+    </div>
+
+    <script src="negara.js"></script>
+</body>
+
+</html>
