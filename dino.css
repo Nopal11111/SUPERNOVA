@@ -1,27 +1,31 @@
 body {
   margin: 0;
-  background-color: #f7f7f7;
+  padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  height: 100vh;
+  align-items: center;
   font-family: sans-serif;
+  background-color: #f0f0f0;
+  max-width: 100%;
+  min-height: 500px;
+  overflow-x: hidden;
 }
 
 .game {
-  position: relative;
-  width: 600px;
+  width: 90vw;
   height: 200px;
-  border: 2px solid #555;
-  background-color: #fff;
+  border: 2px solid black;
+  margin-top: 20px;
+  position: relative;
   overflow: hidden;
+  background-color: white;
 }
 
+
 #dino {
-  width: 50px;
+  width: 70px;
   height: 50px;
-  background-image: url('dino.png');
+  background-image: url('maxwell.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -34,28 +38,25 @@ body {
 #cactus {
   width: 20px;
   height: 50px;
-  background-color: green;
+  background-color: red;
   position: absolute;
   bottom: 0;
   left: 600px;
 }
 
-
 #restartBtn {
-  margin-top: 30px;
-  font-size: 18px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  background-color: #444;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #228be6;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 #restartBtn:hover {
-  background-color: #666;
+  background-color: #1864ab;
 }
 
 #score {
@@ -78,4 +79,9 @@ body {
 
 #jumpBtn:active {
   background-color: #1864ab;
+}
+
+.info {
+  margin-top: 20px;
+  font-weight: 800;
 }
