@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.game {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  border: 2px solid #555;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#dino {
+  width: 50px;
+  height: 50px;
+  background-image: url('dino.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+
+
+#cactus {
+  width: 20px;
+  height: 50px;
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  left: 600px;
+}
+
+
+#restartBtn {
+  margin-top: 30px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#restartBtn:hover {
+  background-color: #666;
+}
+
+#score {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+#jumpBtn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #228be6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#jumpBtn:active {
+  background-color: #1864ab;
+}
