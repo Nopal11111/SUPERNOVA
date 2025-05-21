@@ -203,7 +203,7 @@ body {
 /* Halaman Awal */
 .start-screen {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .start-button {
@@ -223,7 +223,7 @@ body {
 /* Kontainer Quiz */
 .quiz-container {
     max-width: 500px;
-    margin: 50px auto;
+    margin: 20px ;
     padding: 20px;
     border: 2px solid #ddd;
     border-radius: 10px;
@@ -305,7 +305,6 @@ body {
 /* QUIZ TEBAK NEGARA */
 .container-flag-quiz {
     background-color: #f7f7f7;
-    display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;

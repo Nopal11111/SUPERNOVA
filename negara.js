@@ -48,6 +48,31 @@ const questions = [
     flag: 'img/romania.png',
     choices: ['andora', 'Belanda', 'chad', 'romania'],
     correct: 'romania'
+  },
+  {
+    flag: 'img/russia.png',
+    choices: ['serbia', 'rusia', 'amerika', 'romania'],
+    correct: 'rusia'
+  },
+  {
+    flag: 'img/srilanka.png',
+    choices: ['india', 'indonesia', 'sri lanka', 'jerman'],
+    correct: 'sri lanka'
+  },
+  {
+    flag: 'img/serbia.png',
+    choices: ['serbia', 'Belanda', 'rusia', 'kosovo'],
+    correct: 'serbia'
+  },
+  {
+    flag: 'img/luxembourg.png',
+    choices: ['rusia', 'Belanda', 'austria', 'luxembourg'],
+    correct: 'luxembourg'
+  },
+  {
+    flag: 'img/cyprus.png',
+    choices: ['antartika', 'cyprus', 'austalia', 'kazakstan'],
+    correct: 'cyprus'
   }
 ];
 
